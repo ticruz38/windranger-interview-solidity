@@ -1,3 +1,4 @@
+import 'hardhat-deploy'
 import '@typechain/hardhat'
 import '@nomiclabs/hardhat-ethers'
 import '@nomiclabs/hardhat-etherscan'
@@ -36,7 +37,7 @@ export default {
                 }
             },
             {
-                version: '0.8.4',
+                version: '0.8.14',
                 settings: {
                     optimizer: {
                         enabled: true,
